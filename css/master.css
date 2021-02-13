@@ -1,0 +1,29 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,html {
+  height: 100%;
+}
+.bgimg {
+  /* background image  */
+  background: url('../image/forestbridge.jpg') center/cover no-repeat;
+  /* background-image: url('../image/forestbridge.jpg');
+  background-position: center;
+  background-size: cover; */
+
+  /* make position relative to enable absolute inside it */
+  position: relative;
+
+  color: blue;
+  /* Full screen to content */
+  height: 100%;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+P{
+  font-size: 25px;
+	text-shadow: 0px 0px 20px blue;
+}
